@@ -213,20 +213,24 @@ Git
 
 
 1. Clone the repository
+
 git clone https://github.com/rounakbhardwaj01/PrepForge-AI.git
 cd PrepForge-AI
 
-2. Setup Backend
+3. Setup Backend
+
 cd Backend
 npm install
 
 Create a .env file inside the Backend directory:
+
 PORT=3000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 GOOGLE_GENAI_API_KEY=your_google_gemini_api_key
 
 Start the backend:
+
 npm run dev
 The backend will run on:
 http://localhost:3000
@@ -234,6 +238,7 @@ http://localhost:3000
 
 
 3. Setup Frontend
+
 Open another terminal:
 cd Frontend
 npm install
@@ -254,27 +259,36 @@ http://localhost:5173
 🌐 Deployment
 
 Frontend
+
 The React frontend is deployed using Vercel.
 
+
 Backend
+
 The Node.js/Express backend is deployed using Render.
 
 Environment variables are configured separately in the deployment platforms to keep sensitive credentials out of the source code.
 
 
 🔒 Environment Variables
+
 Never commit .env files or API keys to GitHub.
 
 Required backend variables:
 
 PORT=
+
 MONGO_URI=
+
 JWT_SECRET=
+
 GOOGLE_GENAI_API_KEY=
+
 
 Required frontend variable:
 
 VITE_API_URL=
+
 🎯 Future Improvements
 Real-time mock interview mode
 Voice-based interview practice
@@ -282,6 +296,7 @@ More detailed resume analytics
 Interview performance tracking
 Additional AI-powered career recommendations
 Improved PDF resume templates
+
 
 
 👨‍💻 Author
