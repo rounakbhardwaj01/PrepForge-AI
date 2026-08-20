@@ -285,6 +285,7 @@ Improved PDF resume templates
 
 
 👨‍💻 Author
+
 Rounak Bhardwaj
 
 GitHub: https://github.com/rounakbhardwaj01
