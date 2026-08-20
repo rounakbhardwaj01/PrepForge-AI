@@ -100,7 +100,7 @@ PrepForge AI/
 
 
 🔄 How It Works
-
+```
 User
   │
   ├── Register / Login
@@ -133,11 +133,11 @@ MongoDB
   │
   ▼
 Interview Report
-
+```
 
 
 For resume generation:
-
+```
 Interview Report
       │
       ▼
@@ -154,7 +154,7 @@ PDF Resume
       │
       ▼
 Download
-
+```
 
 
 🔐 Authentication
